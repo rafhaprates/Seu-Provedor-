@@ -1,0 +1,493 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto,  sans-serif;
+    font-weight: normal;
+}
+
+nav {
+    background: red;
+    height: 50px;
+    width: 100%;
+}
+label.logo {
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    float: left;
+    margin-left: 420px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 601px;
+    
+}
+
+nav ul li {
+    display: inline-flex;
+    position: center;
+    line-height: 50px;
+    margin: 0 40px;
+    position: center;
+}
+
+nav ul li a {
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background: #ff5050;
+    transition: 0.2s;
+    z-index: 30;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+
+}
+#seuProvedor { 
+    margin-top: 5%;
+}
+#seuProvedor h1 {
+    color: red;
+    text-align: left;
+    margin-bottom: 10%;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#seuProvedor p {
+    margin-top: 5%;
+    color: #a9a9a9;
+    text-align: left;
+    font-weight:normal;
+    font-family: sans-serif;
+    
+}
+
+#seuProvedor table {
+    margin: auto;
+    
+}
+
+.tdEspaco { 
+    float: left;
+    margin-left: 90px;
+   -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+    
+ }
+
+#tudoLugar {
+    margin-top: 10%;
+}
+ #tudoLugar .tableinfo {
+     margin: auto;
+     text-align: left;
+     
+ }
+
+ .tableTxt {
+     text-align: right;
+ }
+
+ #tudoLugar .tableinfo h1 {
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+ }
+
+#infoCliente {
+   
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+    
+}
+.imgQuadrado{
+   margin-top: -55px;
+   margin-left: 20px;
+   
+
+}
+
+#infoCliente h4 {
+    font-weight: bolder;
+font-size: 16px;}
+
+#suporteEsp {
+    margin: 0 auto;
+}
+
+#suporteEsp table {
+    background-color: #fdfdfc;
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-bottom: 5%;
+}
+#suporteEsp table img {
+    margin-top: -20px;
+   margin-left: -70px;
+}
+
+.tdEspacoEsp {
+    float: right;
+    margin-right: 150px;
+   -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+}
+#suporteEsp table p {
+    text-align: right;
+    margin-right: 50px;
+    font-weight:normal;
+    font-family: sans-serif;
+    margin-top: 5%;
+    color: #a9a9a9;
+}
+#suporteEsp table h1 {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 50px;
+    color: red;
+}
+
+
+
+
+#infoCliente h4 {
+    margin: 0 0 0 20px;
+}
+
+.quadrado{
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 20px 20px;
+
+    
+}
+
+ .quebraLinha{
+    word-wrap: break-word;
+    display: block;
+    width: 150px;
+ }
+ #tudoLugar .tableinfo p {
+    margin-top: 15%;
+    color: #a9a9a9;
+    text-align: center;
+    font-weight:normal;
+    font-family: sans-serif;
+    margin-bottom: 30%;
+ }
+
+
+ #admDados .tableadm h1 {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+ }
+
+
+ #infoAdm {
+   
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+    
+}
+.imgAdmQuadrado{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+
+}
+
+#infoAdm h4 {
+    margin: 0 0 0 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#infoAdm p {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 30px;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-right: 10px;
+    
+
+}
+
+.admQuadrado{
+    width: 250px;
+    height: 290px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+#tudoPrecisar {
+    margin-bottom: 100px;
+}
+#tudoPrecisar img {
+    width: 700px;
+    height: 700px;
+
+}
+#tudoPrecisar table {
+   
+    max-width: 990px;
+    margin-bottom: 5%;
+    margin: 0 auto;
+}
+
+#tudoPrecisar table h1 {
+    color: red;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+#tudoPrecisar table p {
+    margin-bottom: 60px;
+}
+
+#precsiandoSrv {
+
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+    background-color:#fdfdfc;
+
+}
+
+#precsiandoSrv h4 {
+    margin: 0 0 0 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#precsiandoSrv p {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 30px;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-right: 10px;
+    
+
+}
+.srvImg {
+   display: flex;
+   margin-top: -55px;
+   margin-right: -200px;
+}
+
+#precsiandoSrv table h1 {
+    color: red;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+#precsiandoSrv table img {
+    margin-top: -30px;
+    margin-right: -80px;
+    
+}
+
+#contato {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+    
+}
+
+#contato h1 {
+    color: red;
+    font-weight: bolder;
+   font-size: 25px;
+}
+.contatoDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#contato table td input {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contato input, textarea {
+
+    display: block;	
+    flex-basis: 150px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-self:stretch;
+    flex-grow: 1;
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.w3-input{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100% 
+}
+.btn_enviar{
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    border:none!important;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+.btn_enviar:hover{
+    background-color: #f4511e;
+}
+
+#footers {
+    display: flex;
+    height: 300px;
+    width: 1900;
+    background-color: #fdfdfc;
+}
+
+
+.fLogo {
+    color:red;
+    font-weight: bolder;
+   font-size: 25px;
+    line-height: 60px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+#ulFooter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    padding-left: 0;
+    
+    
+}
+
+#ulFooter ul li {
+    display: inline-flex;
+    position: left;
+    line-height: 100px;
+    margin: 0 40px;
+
+    
+}
+
+#ulFooter img {
+    display: flex;
+    float: right;
+    margin-right: -700px;
+   
+}
+#ulFooter ul li a {
+    color: red;
+    font-weight: bold;
+}
+@media (max-width: 1740px){
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+        margin-left: 25px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1740px){
+    .checkbtn {
+        display:block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: red;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s ;
+        z-index: 30;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    nav ul li a:hover{
+        background: none;
+        color: #ff5050;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137" height="137" viewBox="0 0 137 137">
+  <defs>
+    <filter id="Retângulo_2816" x="0" y="0" width="137" height="137" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_3850" data-name="Grupo 3850" transform="translate(29.998 20)">
+    <g transform="matrix(1, 0, 0, 1, -30, -20)" filter="url(#Retângulo_2816)">
+      <rect id="Retângulo_2816-2" data-name="Retângulo 2816" width="77" height="77" rx="25" transform="translate(30 20)"/>
+    </g>
+    <path id="icons8-edit_column" d="M11.632,0A2.637,2.637,0,0,0,9,2.632V41.239a2.637,2.637,0,0,0,2.632,2.632H34.445a2.637,2.637,0,0,0,2.632-2.632V26.076l-1.755,1.755V41.239a.879.879,0,0,1-.877.877H11.632a.879.879,0,0,1-.877-.877V2.632a.879.879,0,0,1,.877-.877H34.445a.879.879,0,0,1,.877.877V14.148l1.755-1.755V2.632A2.637,2.637,0,0,0,34.445,0Zm29.75,11.352a3.537,3.537,0,0,0-2.523,1.042l-.274.274a.829.829,0,0,0-.11.11l-.219.247L24.656,26.6a.848.848,0,0,0-.219.384l-1.426,5.264a.878.878,0,0,0,1.069,1.069l5.264-1.426a.859.859,0,0,0,.411-.219L43.329,18.1l.219-.219a.837.837,0,0,0,.11-.137l.274-.274a3.578,3.578,0,0,0-2.55-6.114ZM39.49,14.258l2.577,2.577L28.632,30.3l-2.577-2.55.027-.11Z" transform="translate(15.516 17.065)" fill="#fff"/>
+  </g>
+</svg>

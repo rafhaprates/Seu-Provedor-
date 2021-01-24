@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137" height="136.163" viewBox="0 0 137 136.163">
+  <defs>
+    <filter id="Retângulo_2816" x="0" y="0" width="137" height="136.163" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_3850" data-name="Grupo 3850" transform="translate(30.443 19.73)">
+    <g transform="matrix(1, 0, 0, 1, -30.44, -19.73)" filter="url(#Retângulo_2816)">
+      <rect id="Retângulo_2816-2" data-name="Retângulo 2816" width="77" height="76.163" rx="25" transform="translate(30 20)"/>
+    </g>
+    <path id="icons8_calendar" d="M10.7,0A1.752,1.752,0,0,0,8.958,1.739V3.479H3.739A1.7,1.7,0,0,0,2,5.218V40.006a1.768,1.768,0,0,0,.5,1.247,1.766,1.766,0,0,0,1.243.493H40.267a1.685,1.685,0,0,0,1.739-1.739V5.218a1.69,1.69,0,0,0-1.739-1.739H35.049V1.739A1.752,1.752,0,0,0,33.309,0H31.57A1.752,1.752,0,0,0,29.83,1.739V3.479H14.176V1.739A1.752,1.752,0,0,0,12.436,0Zm0,1.739h1.739V6.958H10.7Zm20.873,0h1.739V6.958H31.57ZM3.739,5.218H8.958V6.958A1.752,1.752,0,0,0,10.7,8.7h1.739a1.752,1.752,0,0,0,1.739-1.739V5.218H29.83V6.958A1.752,1.752,0,0,0,31.57,8.7h1.739a1.752,1.752,0,0,0,1.739-1.739V5.218h5.218v6.088H3.739Zm0,7.827H40.267V40.006H3.739Zm5.218,3.479v20H35.049v-20ZM10.7,18.264h4.348v4.348H10.7Zm6.088,0h4.348v4.348H16.785Zm6.088,0h4.348v4.348H22.873Zm6.088,0h4.348v4.348H28.961ZM10.7,24.352h4.348V28.7H10.7Zm6.088,0h4.348V28.7H16.785Zm6.088,0h4.348V28.7H22.873Zm6.088,0h4.348V28.7H28.961ZM10.7,30.439h4.348v4.348H10.7Zm6.088,0h4.348v4.348H16.785Zm6.088,0h4.348v4.348H22.873Zm6.088,0h4.348v4.348H28.961Z" transform="translate(16.554 17.397)" fill="#fff"/>
+  </g>
+</svg>
